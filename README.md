@@ -10,5 +10,4 @@
 ## Comando ps -aux
 ### Este comando se utiliza para mostrar información acerca de los procesos en ejecución
 ## Comando man
-### Este comando funciona como un manual para cada comando dentro del sistema operativo, muestra una descripción sobre para que sirve además de información sobre la sintaxis y
-### en que casos utilizarlo
+### Este comando funciona como un manual para cada comando dentro del sistema operativo, muestra una descripción sobre para que sirve además de información sobre la sintaxis y en que casos utilizarlo
