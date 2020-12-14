@@ -3,9 +3,10 @@
 ## Comando Ping
 ### El comando Ping se utiliza para para poder verificar si existe una respuesta de un host específico
 ### Se escribe de la siguiente forma ping y el nombre del host por ejemplo google.com
-__ejemplo ping google.com__
+### ejemplo: ping google.com
 ## Comando Clear
 ### Este comando se utiliza para limpiar la pantalla de la terminal unicamente se debe escribir "clear"
+### ejemplo: clear
 ## Comando pstree
 ### Este comando al utilizarlo, retorna todos los procesos en ejecución, mostrados en una estructura de árbol
 ## Comando ps -aux
