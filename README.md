@@ -38,7 +38,39 @@
 ### el porcentaje de uso de componentes como CPU y memoria, entre otros.
 ### ejemplo: htop
 ## Comando Sudo
-### El comando sudo se utiliza 
+### El comando sudo se utiliza para poder ejecutar comandos o progromas con todos los privilegios de seguridad que posee el supeusuario o usuario administrador 
+### en resumen un usuario común puede utilizar sudo para así ejecutar comandos que están restringidos y que unicamente puede ejecutar el usuario administrador
+### ejemplo: para poder actualizar el sistema operativo se utiliza sudo apt update
+## Comando Cat
+### Este comando se utiliza para poder visualizar el contenido de un archivo específico, por ejemplo de un archivo de texto
+### ejemplo: cat HolaMundo.txt (devuelve todo lo escrito en este archivo)
+## Comando Tail
+### Es similar a cat con la diferencia que se utiliza para unicamente visualizar las últimas diez lineas del archivo
+### ejemplo: tail documento.txt (devuelve las últimas diez lineas de documento.txt)
+## Comando Head
+### Es identico al comando tail, pero a diferencia de este, en vez de retornar las últimas diez lineas del archivo devuelve las primeras diez lineas
+### ejemplo: head documento.txt (retorna las primeras diez líneas de documento.txt)
+## Comando cd
+### El comando cd se utiliza para poder ingresar a un directorio específico, se coloca cd y la ruta a donde se quiere acceder
+### ejemplo: cd /home/lrodriguezp717/Descargas
+## Comando ls 
+### Se utiliza para poder observar todo el contenido que se encuentra dento de un directorio específico
+### ejemplo: ls /home/lrodriguezp717/Descargas
+## Comando pwd
+### El comando pwd retorna el nombre del directorio donde el usuario se encuentra trabajando actualmente
+### ejemplo: pwd 
+## Comando cp
+### El comando cp se utiliza en casos donde el usuario quiera copiar un archivo o un directorio, se escribe cp nombre de archivo y el destino a donde se quiere copiar
+### ejemplo: cp Calculadora.txt /home/lrodriguezp717/Descargas (se copia este archivo a este directorio)
+## Comando mv
+### El comando mv se utiliza para renombrar o mover archivos a un directorio, si se escribe mv y un nuevo nombre se renombra, si se escrive mv y una ruta se mueve el
+### archivo a ese directorio
+### ejemplo: mv Calculadora.txt Calculadora2.txt (se renombra el archivo)
+## Comando rm
+### El comando rm se utiliza para eliminar un archivo o directorio específico
+### ejemplo: rm Documento.txt (se elimina el archivo)
+## Comando 
+
 
 
 
