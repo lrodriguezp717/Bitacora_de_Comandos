@@ -69,7 +69,9 @@
 ## Comando rm
 ### El comando rm se utiliza para eliminar un archivo o directorio específico
 ### ejemplo: rm Documento.txt (se elimina el archivo)
-## Comando 
+## Comando chmod 777
+### El comando chmod 777 se utiliza para concederle todos los permisos a un archivo se escribe el comando y el nombre del archivo
+### ejemplo: chmod 777 Documento.txt
 
 
 
