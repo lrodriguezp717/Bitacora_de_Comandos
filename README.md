@@ -37,7 +37,8 @@
 ### formato de árbol, configurar y matar procesos. Es muy similar al task manager de Windows 10, ya que muestra gráficos sobre el rendimiento del sistema, como por ejemplo el
 ### el porcentaje de uso de componentes como CPU y memoria, entre otros.
 ### ejemplo: htop
-
+## Comando Sudo
+### El comando sudo se utiliza 
 
 
 
