@@ -27,6 +27,16 @@
 ### El comando --version se utiliza para poder imprimir toda información relacionada con la versión actual de una aplicación o comando instalado en el sistema entre esa 
 ### información se encuentra el número de versión, características de esa versión, desarrolladores, entre otros
 ### ejemplo: firefox --version
+## Comando Top
+### El comando top se utiliza con el fin de visualizar el estado del sistema y todos los procesos dentro de el, se pueden observar datos similares a los que retorna el 
+### comando ps -aux, pero a diferencia de este, muestra datos en tiempos real, lo cual es bastante util ya que ayuda a conocer el estado actual de nuestro servidor
+### ejemplo: top
+## Comando Htop
+### El comando htop, es bastante parecido al comando top debido a que también se utiliza para observar procesos dentro del sistema, pero a diferencia de este, es mucho más
+### visual, el usuario puede moverse vertical y horizontalmente para ver los procesos. También cuenta con opciones interactivas como filtrar procesos, ver los procesos en
+### formato de árbol, configurar y matar procesos. Es muy similar al task manager de Windows 10, ya que muestra gráficos sobre el rendimiento del sistema, como por ejemplo el
+### el porcentaje de uso de componentes como CPU y memoria, entre otros.
+### ejemplo: htop
 
 
 
