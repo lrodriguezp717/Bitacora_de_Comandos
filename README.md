@@ -156,6 +156,38 @@
 ### ejemplo: more Documento.txt
 ## Comando ip addr
 ### Retorna la dirección ip de nuestro equipo
+## Comando docker pull
+### Se utiliza para obtener imágenes de sistemas operativos o para descargar repositorios subidos a docker hub
+### ejemplo: docker pull ubuntu
+## Comando docker images
+### muestra todas las imágenes de sistemas operativos instaladas 
+### ejemplo: docker images, después de esto despliega la información
+## Comando sudo docker run -it
+### Se utiliza paara poder ejecutar una de las imagenes descargadas 
+### ejemplo sudo docker run -it ubuntu (crea una nueva máquina virtual ubuntu e ingresa a la terminal de esta)
+## Comando cat /etc/os-release
+### En docker se utiliza para saber información sobre la máquina virtual que se esté utilizando en ese momento
+## Comando uname -a
+### Se utiliza para poder saber el kernel que utiliza una máquina virtual que se esté usando en docker
+## Comando exit
+### Se sale del contenedor que se esté utilizando en docker
+## Comando docker ps -a
+### Despliega todos los contenedores que se están corriendo en docker
+## Comando docker start
+### Se utiliza para poder inicializar un contenedor específico, solo se coloca docker start y el id del contenedor que se desea inicializar
+### ejemplo: docker start 2254f8f6c0e7 
+## Comando docker attach
+### Se utiliza para poder utilizar o ingresar a la terminal de un contenedor en ejecución, solo se coloca docker attach y el id del contenedor
+### ejemplo: docker attach 2254f8f6c0e7
+## Comando docker login -u
+### Se utiliza para poder realizar un login en docker, solo se coloca docker login -u y el nombre de usuario de una cuenta en docker hub
+### ejemplo: docker login -u  lrodriguezp717
+## Comando docker push
+### Se utiliza para poder subir un repositorio a docker hub, se debe además agregar el nombre del repositorio
+### ejemplo: docker push Leo/Sistemas_Operativos
+## Comando docker commit -m
+### Se utiliza para poder guardar un repositorio que posteriormente puede ser subido a docker hub, se coloca el comando y el nombre del repositorio que se quiere guardar
+### docker commit -m 
 
 
 
