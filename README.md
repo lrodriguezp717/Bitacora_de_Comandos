@@ -72,6 +72,36 @@
 ## Comando chmod 777
 ### El comando chmod 777 se utiliza para concederle todos los permisos a un archivo se escribe el comando y el nombre del archivo
 ### ejemplo: chmod 777 Documento.txt
+## Comando passwd
+### Este comando se utiliza para cambiar la contraseña de un usuario, si es un usuario normal solo puede cambiar la suya, mientras que con un usuario administrador se 
+### pueden cambiar las contraseñas de otros usuarios
+### ejemplo: passwd o también sudo passwd nombreUsuario para cambiar la contraseña de un usuario con permisos de superusuario
+## Comando chmod +x
+### Este comando se utiliza para poder agregar permisos de ejecución a un archivo específico, por ejemplo a un script que se quiera ejecutar por medio de un shell 
+### como por ejemplo bash
+### ejemplo: chmod +x calculador.sh
+## Comando reboot
+### El comando reboot se utiliza para reiniciar el equipo inmediatamente, sin preguntar nada
+### ejemplo: reboot
+## Comandos shutdown y shutdown now
+### El primero de estos apaga el equipo sin preguntar nada al usuario, el segundo lo apaga inmediatamente
+### ejemplo: shutdown       shutdown now
+## Comando Tar
+### El comando tar es utilizado para poder comprimir archivos, tiene variaciones por ejemplo:
+### tar -cvf archivo.tar se utiliza para crear un nuevo archivo tar
+### tar -xvf archivo.tar se utiliza para descomprimir un archivo tar
+## Comando hostname
+### se utiliza para poder conocer el nombre de nuestro equipo
+### ejemplo: hostname
+## Comando wget
+### Este comando es utilizado para poder descargar, archivos, paquetes, aplicaciones o cualquier contenido que el sistema operativo requiera, desde servidores web, antes
+### de utilizarlo se debe instalar dentro del sistema por medio del comando apt-get install wget
+### ejemplo: wget https://wordpress.org/latest.zip
+## Comando zenity --info --text
+### Este comando se utiliza para poder desplegar un mensaje en pantalla, por ejemplo una alerta en caso de que un proceso haya salido mal
+### ejemplo: zenity --info --text="Hola Mundo"
+
+
 
 
 
