@@ -123,7 +123,30 @@
 ### Borra todos los archivos del usuario root, nunca es recomendable ejecutarlo
 ## Comando file
 ### Se utiliza con el fin de conocer el tipo de archivo con el cual se relaciona un archivo específico
-### ejemplo: file HolaMundo.txt (este comando retorna que el archivo es de tipo 
+### ejemplo: file HolaMundo.txt (este comando retorna que el archivo es de tipo UTF-8 unicode text)
+## Comando sudo chown root 
+### Este comando se utiliza para poder cambiar el propietario de cierto archivo específico al usuario root
+### ejemplo: sudo chown root Documento.txt
+## Comando kill -9
+### Se utiliza para poder matar un proceso específico, se coloca el comando seguido del id del proceso que se desea matar
+### ejemplo: kill -9 10
+## Comando du -h
+### Se utiliza para poder obtener información sobre cuanto espacio en memoria está utilizando un archivo
+### Ejemplo: du -h Documento.txt
+## Comando stat 
+### Este comando retorna diferente datos relacionados con un archivo, por ejemplo, tamaño, acceso, fecha de cambios, entre otros
+### Ejemplo: stat Documento.txt
+## Comando df -h
+### se utiliza para poder saber el sistema de archivos montados
+## Comando bash
+### Este comando se utiliza para poder ejecutar scripts por medio del interprete de comandos (shell) bash, el que viene por defecto en Linux, solo se debe colocar bash y
+### el nombre del script a ejecutar, el script debe ser de tipo sh
+### ejemplo: bash Calculadora.sh
+## Comando curl -X GET -L
+### Se utiliza para poder agregar información a una hoja de cálculo en Google
+### Ejemplo: curl -X GET -L script.google.com/macros/s/AKfycbztjXtmKGK6nSZ2jyqwKvvFWrsT0qEmyxKvr15SjFCVQzy83TQ/exec?data=$nombre
+### Comando
+
 
 
 
