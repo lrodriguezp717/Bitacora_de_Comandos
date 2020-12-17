@@ -40,7 +40,7 @@
 ## Comando Sudo
 ### El comando sudo se utiliza para poder ejecutar comandos o progromas con todos los privilegios de seguridad que posee el supeusuario o usuario administrador 
 ### en resumen un usuario común puede utilizar sudo para así ejecutar comandos que están restringidos y que unicamente puede ejecutar el usuario administrador
-### ejemplo: para poder actualizar el sistema operativo se utiliza sudo apt update
+### ejemplo: para poder actualizar el sistema operativo se utiliza sudo apt upgrade
 ## Comando Cat
 ### Este comando se utiliza para poder visualizar el contenido de un archivo específico, por ejemplo de un archivo de texto
 ### ejemplo: cat HolaMundo.txt (devuelve todo lo escrito en este archivo)
@@ -100,7 +100,30 @@
 ## Comando zenity --info --text
 ### Este comando se utiliza para poder desplegar un mensaje en pantalla, por ejemplo una alerta en caso de que un proceso haya salido mal
 ### ejemplo: zenity --info --text="Hola Mundo"
-
+## Comando zenity --entry --text
+### Este comando se utiliza para desplegar una ventana donde el usuario puede ingresar información, después esta información puede ser asignada a variables, este comando
+### se utiliza mucho en scripts
+### ejemplo: nombre=$(zenit --entry --text="Digite su nombre") (muestra la ventana, el usuario ingresa su nombre y lo almacena en esta variable)
+## Comando echo
+### Se utiliza para poder imprimir un texto o una variable en la terminal
+### ejemplo: echo $nombre (imprime la información almacenada en la variable nombre)
+## Comando zenity --password
+### Se utiliza para desplegar una ventana donde el usuario puede ingresar una contraseña
+### ejemplo: zenity --password
+## Comando zenity --question
+### Se utiliza para desplegar una ventana con una pregunta, donde el usuario puede escoger si o no
+### ejemplo: zenity --question
+## Comando sudo add apt repository
+### Se utiliza para agregar un repositorio nuevo dentro del sistema operativo
+## Comando sudo apt update
+### Se utiliza para actualizar toda la lista de paquetes dentro del sistema operativo
+## Comando sudo apt uprade
+### Se utiliza para poder actualizar el sistema operativo y no solo eso sino también se ejecutan todas las posibles actualizaciones, ya sea de aplicaciones o de otro tipo
+## Comando sudo rm-R
+### Borra todos los archivos del usuario root, nunca es recomendable ejecutarlo
+## Comando file
+### Se utiliza con el fin de conocer el tipo de archivo con el cual se relaciona un archivo específico
+### ejemplo: file HolaMundo.txt (este comando retorna que el archivo es de tipo 
 
 
 
