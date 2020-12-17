@@ -187,7 +187,7 @@
 ### ejemplo: docker push Leo/Sistemas_Operativos
 ## Comando docker commit -m
 ### Se utiliza para poder guardar un repositorio que posteriormente puede ser subido a docker hub, se coloca el comando y el nombre del repositorio que se quiere guardar
-### docker commit -m 
+### docker commit -m Leo/Sistemas_Operativos
 
 
 
