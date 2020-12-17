@@ -115,12 +115,16 @@
 ### ejemplo: zenity --question
 ## Comando sudo add apt repository
 ### Se utiliza para agregar un repositorio nuevo dentro del sistema operativo
+### ejemplo: sudo add apt repository
 ## Comando sudo apt update
 ### Se utiliza para actualizar toda la lista de paquetes dentro del sistema operativo
-## Comando sudo apt uprade
+### ejemplo: sudo apt update
+## Comando sudo apt upgrade
 ### Se utiliza para poder actualizar el sistema operativo y no solo eso sino también se ejecutan todas las posibles actualizaciones, ya sea de aplicaciones o de otro tipo
+### ejemplo: sudo apt upgrade
 ## Comando sudo rm-R
 ### Borra todos los archivos del usuario root, nunca es recomendable ejecutarlo
+### ejemplo: sudo rm-R
 ## Comando file
 ### Se utiliza con el fin de conocer el tipo de archivo con el cual se relaciona un archivo específico
 ### ejemplo: file HolaMundo.txt (este comando retorna que el archivo es de tipo UTF-8 unicode text)
@@ -138,6 +142,7 @@
 ### Ejemplo: stat Documento.txt
 ## Comando df -h
 ### se utiliza para poder saber el sistema de archivos montados
+### ejemplo: df h
 ## Comando bash
 ### Este comando se utiliza para poder ejecutar scripts por medio del interprete de comandos (shell) bash, el que viene por defecto en Linux, solo se debe colocar bash y
 ### el nombre del script a ejecutar, el script debe ser de tipo sh
@@ -156,6 +161,7 @@
 ### ejemplo: more Documento.txt
 ## Comando ip addr
 ### Retorna la dirección ip de nuestro equipo
+### ejemplo: ip addr
 ## Comando docker pull
 ### Se utiliza para obtener imágenes de sistemas operativos o para descargar repositorios subidos a docker hub
 ### ejemplo: docker pull ubuntu
@@ -188,6 +194,7 @@
 ## Comando docker commit -m
 ### Se utiliza para poder guardar un repositorio que posteriormente puede ser subido a docker hub, se coloca el comando y el nombre del repositorio que se quiere guardar
 ### docker commit -m Leo/Sistemas_Operativos
+
 
 
 
