@@ -145,7 +145,18 @@
 ## Comando curl -X GET -L
 ### Se utiliza para poder agregar información a una hoja de cálculo en Google
 ### Ejemplo: curl -X GET -L script.google.com/macros/s/AKfycbztjXtmKGK6nSZ2jyqwKvvFWrsT0qEmyxKvr15SjFCVQzy83TQ/exec?data=$nombre
-### Comando
+## Comando sudo apt install
+### Se utiliza para poder instalar una aplicación o paquete que el sistema operativo requiera
+### ejemplo: sudo apt install python3
+## Comando sudo apt search
+### Se utiliza para poder buscar paquetes desde la terminal
+### ejemplo: sudo apt search nodejs (retorna una lista de todos los paquetes nodejs)
+## Comando more
+### Permite visualizar el contenido de un archivo linea por linea
+### ejemplo: more Documento.txt
+## Comando ip addr
+### Retorna la dirección ip de nuestro equipo
+
 
 
 
